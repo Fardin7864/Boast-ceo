@@ -77,7 +77,7 @@ const BrandSection = () => {
     };
     // console.log(user)
     const res = await axios.post(
-      "http://localhost:5000/api/v1/add-waitlist",
+      "https://boast-server.vercel.app/api/v1/add-waitlist",
       user
     );
     // console.log(res.data)
@@ -150,14 +150,14 @@ const BrandSection = () => {
       </div>
 
       <p
-        className="text-center mt-5 text-3xl font-bold text-white"
+        className="text-center mt-5 text-2xl lg:text-3xl font-bold text-white"
         style={{ letterSpacing: "3px" }}
       >
         Don&#x2019;t see your favorite brands?
       </p>
 
       <h2
-        className="text-center pb-3 pt-3 text-lg font-bold text-slate-100"
+        className="text-center pb-3 pt-3 text-md lg:text-lg font-bold text-slate-100"
         style={{ fontFamily: "Gilroy" }}
       >
         Which brands you want to see partner with us next?
