@@ -1,5 +1,6 @@
 import Image from "next/image";
-import React from "react";
+import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -17,6 +18,23 @@ const Footer = () => {
               to 100% to our members. When customers make purchases and share on
               social media, they receive cashback rewards.
             </p>
+          </div>
+          <div className="flex gap-3">
+            <a
+              href="https://web.facebook.com/boastbrand/"
+              target="blank"
+              className="text-[#ff4e50] bg-black p-3 rounded-lg "
+            >
+              <FaFacebook className="text-lg" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/getboastofficial/"
+              target="blank"
+              className="text-[#ff4e50] bg-black p-3 rounded-lg"
+            >
+              <FaInstagram className="text-lg" />
+            </a>
           </div>
         </div>
         {/* 2nd section */}
