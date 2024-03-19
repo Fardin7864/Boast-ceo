@@ -16,7 +16,7 @@ const HeroSection = () => {
         </div>
 
         {/* yellow section */}
-        <div className=" absolute -left-[160px] bottom-[50px] lg:-bottom-[240px] lg:-left-[30rem] z-0">
+        <div className=" absolute -left-[160px] top-[50px] lg:-top-[100px] lg:-left-[30rem] z-0">
           <Image
             src={"/hero/yellowbg.png"}
             className="w-[400px] lg:w-[1100px]"
@@ -40,7 +40,7 @@ const HeroSection = () => {
           />
         </div>
         {/* line 1 */}
-        <div className=" absolute -left-16 top-14 lg:-top-10 lg:-left-40 z-0">
+        <div className=" absolute -left-16 top-[50px] lg:-top-10 lg:-left-40 z-0">
           <Image
             src={"/hero/line1.png"}
             className="w-[200px] lg:w-[600px]"
@@ -50,10 +50,10 @@ const HeroSection = () => {
           />
         </div>
         {/* line 2 */}
-        <div className=" absolute top-4 lg:-top-[160px] left-[115px] md:left-[360px] lg:left-[390px]">
+        <div className=" absolute top-4 lg:-top-[160px] md:-top-[12px] left-[115px] md:left-[340px] lg:left-[390px]">
           <Image
             src={"/hero/line2.png"}
-            className=" w-[250px] md:w-[350px] lg:w-[900px]"
+            className=" w-[250px] md:w-[400px] lg:w-[900px]"
             width={1000}
             height={0}
             alt="line2 "
