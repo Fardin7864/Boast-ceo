@@ -105,7 +105,7 @@ const HeroSection = () => {
           </h2>
           <button
             onClick={handleScrollToWishlist}
-            className="bg-black my-5 hover:bg-[#fd7f3e] text-white font-bold px-4 lg:px-6 py-2 rounded-full hover:text-black duration-300 "
+            className="bg-black my-5 hover:bg-[#fd7f3e] text-white font-bold px-4 lg:px-6 py-2 2xl:p-8 2xl:text-4xl rounded-full hover:text-black duration-300 "
           >
             Early access
           </button>
