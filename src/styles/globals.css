@@ -129,3 +129,15 @@
   background-image: url("https://assets.website-files.com/5837424ae11409586f837994/611b2d3c1a84f270060c9ec1_Texture.png"),
     linear-gradient(#b2e92e, #b2e92e);
 }
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .lineTwo {
+    left: 140px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  .lineTwo {
+    /* left: 250px; */
+  }
+}
