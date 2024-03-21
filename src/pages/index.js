@@ -36,6 +36,8 @@ export default function HomePage() {
         ]}
       />
       <Head>
+        <html lang="en" />
+
         <title>
           Boast: Get Cashback Rewards by Shopping | Early Access Program
         </title>
@@ -67,6 +69,26 @@ export default function HomePage() {
           property="og:image"
           content="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710443479/BOAST/main_hwoc1p.png"
         />
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "http://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Boast",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "136",
+              "addressLocality": "North Baridhara",
+              "addressRegion": "Dhaka",
+              "postalCode": "1206",
+              "addressCountry": "Bangladesh"
+            },
+            "telephone": "+8801614395930",
+            "url": "https://www.getboast.co",
+            "image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1710443479/BOAST/main_hwoc1p.png"
+          }
+        `}
+        </script>
       </Head>
 
       <HeroSection />

@@ -50,10 +50,10 @@ const HeroSection = () => {
           />
         </div>
         {/* line 2 */}
-        <div className=" absolute top-6 lg:-top-[30px] xl:-top-[160px] md:-top-[12px] 2xl:-top-[145px] right-[20px] sm:right-[115px] md:right-[40px] lg:right-[50px] xl:right-[80px] 2xl:right-[80px] lineTwo">
+        <div className=" absolute top-3 lg:-top-[30px] xl:-top-[160px] md:top-[5px] 2xl:-top-[145px] -right-[7px] sm:right-[115px] md:right-[65px] lg:right-[50px] xl:right-[80px] 2xl:right-[80px] lineTwo ">
           <Image
             src={"/hero/line2.png"}
-            className="w-[220px] sm:w-[250px] md:w-[400px] lg:w-[500px] xl:w-[890px] 2xl:w-[1100px]"
+            className="w-[240px] sm:w-[250px] md:w-[350px] lg:w-[500px] xl:w-[890px] 2xl:w-[1100px]"
             width={1000}
             height={0}
             alt="line2 "
@@ -63,16 +63,16 @@ const HeroSection = () => {
         {/* Text and diloags */}
         <div className=" z-10 mt-36 ml-10 lg:ml-48 w-3/6">
           <h2
-            className="text-lg sm:text-2xl md:text-3xl lg:text-6xl font-extrabold hero-title 2xl:text-9xl"
+            className="text-3xl sm:text-[50px] lg:text-6xl font-extrabold hero-title 2xl:text-9xl"
             style={{ letterSpacing: "-2px" }}
           >
             Upto 100 <span className="hero-p">%</span> cashback <br />
             <span className="text-black hero-title">
               {" "}
-              on your
+              on your <br className="md:hidden" />
               <span
                 style={{ position: "relative", display: "inline-block" }}
-                className=" ml-5"
+                className=" "
               >
                 <span
                   style={{
@@ -112,10 +112,10 @@ const HeroSection = () => {
         </div>
 
         {/* main Cha */}
-        <div className=" relative top-3 md:top-10 lg:top-2 2xl:top-28 left-[27px] sm:left-10 md:left-[80px] lg:left-[100px] xl:left-[120px] 2xl:left-[320px]">
+        <div className=" relative top-28 md:top-14 lg:top-2 2xl:top-28 xl:top-8 left-[27px] sm:left-10 md:left-[80px] lg:left-[100px] xl:left-[120px] 2xl:left-[320px]">
           <Image
             src={"/hero/boastC.png"}
-            className="w-[170px] sm:w-[200px] lg:w-[290px] xl:w-[320px] 2xl:w-[620px]"
+            className="w-[120px] sm:w-[200px] lg:w-[290px] xl:w-[320px] 2xl:w-[620px]"
             width={400}
             height={0}
             alt="main carecter"
