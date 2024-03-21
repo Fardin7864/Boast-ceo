@@ -36,10 +36,59 @@ export default function HomePage() {
         ]}
       />
       <Head>
-        <title>BOAST</title>
-        <meta name="description" content="BOAST made by next-js" />
+        <html lang="en" />
+
+        <title>
+          Boast: Get Cashback Rewards by Shopping | Early Access Program
+        </title>
+        <meta
+          name="description"
+          content="Boast is an UGC marketplace that connects brands with influencers, offering cashback rewards for promoting purchases. Join our early access program"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710443479/BOAST/main_hwoc1p.png"
+        />
+        <meta
+          itemprop="description"
+          content="Boast is an innovative UGC marketplace that connects brands with influencers, offering cashback rewards for promoting purchases. !"
+        />
+        <link rel="canonical" href="https://www.getboast.co" />
+        <meta
+          property="og:title"
+          content="Boast: Get Cashback Rewards by Shopping | Early Access Program"
+        />
+        <meta
+          property="og:description"
+          content="Boast is an innovative UGC marketplace that connects brands with influencers, offering cashback rewards for promoting purchases!"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.getboast.co" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710443479/BOAST/main_hwoc1p.png"
+        />
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "http://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Boast",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "136",
+              "addressLocality": "North Baridhara",
+              "addressRegion": "Dhaka",
+              "postalCode": "1206",
+              "addressCountry": "Bangladesh"
+            },
+            "telephone": "+8801614395930",
+            "url": "https://www.getboast.co",
+            "image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1710443479/BOAST/main_hwoc1p.png"
+          }
+        `}
+        </script>
       </Head>
 
       <HeroSection />

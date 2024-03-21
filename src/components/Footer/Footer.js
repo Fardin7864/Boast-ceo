@@ -19,7 +19,7 @@ const Footer = () => {
               social media, they receive cashback rewards.
             </p>
           </div>
-          <div className="flex gap-3">
+          <div className="flex gap-3 mx-7 lg:mx-0">
             <a
               href="https://web.facebook.com/boastbrand/"
               target="blank"
